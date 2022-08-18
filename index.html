@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="mt-24">
+    <header>
+        
+    </header>
+    <main>
+        <!-- love message  -->
+        <section class="text-center mt-12">
+            <div>
+                <h1 id="love-text" class="text-6xl">Will you marry me?🌹</h1>
+                <button id="yes"
+                    class="bg-green-400 hover:bg-green-600 p-3 rounded-lg font-semibold text-white text-3xl mt-4">Yes</button>
+                <button onclick="ofcourseYes()" id="ofcourse-yes"
+                    class="bg-rose-500 hover:bg-rose-700 p-3 rounded-lg font-semibold text-white text-3xl mt-4">Ofcourse
+                    Yes!!</button>
+            </div>
+        </section>
+        <!-- count number -->
+        <section class="text-center mt-12">
+            <h1 class="text-5xl text-center mt-8">#️⃣ Count Number #️⃣ </h1>
+            <div class="">
+                <h2 id="count-number" class="text-4xl">0</h2>
+                <button id="plus-btn" class="text-3xl bg-green-500 hover:bg-green-700 text-white p-3 rounded-lg mt-4">➕ </button>
+                <button id="minus-btn" class="text-3xl bg-red-500 hover:bg-red-700 text-white p-3 rounded-lg mt-4">➖ </button>
+            </div>
+        </section>
+        
+    </main>
+    <script src="count.js"></script>
+    <script src="love.js"></script>
+</body>
+</html>
